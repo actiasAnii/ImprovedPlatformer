@@ -25,6 +25,7 @@ class Load extends Phaser.Scene {
         // kenny-particles.json internally has a list of the png files
         // The multiatlas was created using TexturePacker and the Kenny
         // Particle Pack asset pack.
+        //asset key values are filenames of pngs
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
     }
 
